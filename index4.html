@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <script>
+        let body = document.body
+        body.style.backgroundColor = 'green'
+
+        let divCircle = document.createElement('div');
+        divCircle.style.backgroundColor = 'white';
+        divCircle.style.width = '500px';
+        divCircle.style.height = '600px';
+        divCircle.style.marginLeft = '470px';
+        divCircle.style.marginTop = '120px'
+        body.appendChild(divCircle)
+
+        let divText = document.createElement('div');
+        divText.style.width = '350px'
+        divText.style.fontSize = '30px'
+        divText.style.color = 'black'
+        divText.style.marginLeft = '45px'
+        divText.innerText = 'Colorlib Contact Form'
+        divCircle.appendChild(divText)
+
+        let divText1 = document.createElement('div')
+        divText1.innerText = 'Contact us for custom quote'
+        divText1.style.fontSize = '10px'
+        divText1.style.marginTop = '20px'
+        divText.appendChild(divText1)
+
+        let divPom = document.createElement('div')
+
+        let input = document.createElement('input');
+        input.type = 'text'
+        input.placeholder = 'nveovnelk'
+        input.innerText = 'Your name'
+        input.style.marginTop = '30px'
+        divPom.appendChild(input)
+       
+
+    </script>
+</body>
+</html>
